@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mx-auto max-w-[1440px]">
+    <nav className="mx-auto">
       <div className="px-5 py-4">
         <div className="flex justify-between">
           {/* Logo container */}

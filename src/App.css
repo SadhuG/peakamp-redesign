@@ -1,10 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
+  /* Fonts */
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-asap: "Asap", sans-serif;
+  /* Colors */
+  /* Blue */
   --color-eastern-blue-lightest: #e7f3f7;
   --color-eastern-blue-light: #5badc9;
   --color-eastern-blue: #168ab2;
   --color-eastern-blue-dark: #116e8e;
   --color-eastern-blue-darker: #083747;
   --color-eastern-blue-darkest: #062935;
+  /* Green */
+  --color-caribbean-green: #00d7a2;
 }
