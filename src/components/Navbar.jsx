@@ -76,10 +76,10 @@ const Navbar = () => {
         className={`transform transition-all duration-300 md:hidden ${
           isMenuOpen
             ? "h-[calc(100vh-68px)] translate-y-0 opacity-100"
-            : "pointer-events-none -translate-y-2 opacity-0"
+            : "pointer-events-none h-0 -translate-y-2 opacity-0"
         }`}
       >
-        <div className="bg-eastern-blue-lightest flex h-full flex-col gap-8 p-5">
+        <div className="bg-eastern-blue-lightest flex flex-col gap-8 p-5">
           <div>
             {menuItems.map((item) => (
               <a
@@ -87,22 +87,23 @@ const Navbar = () => {
                 href="#"
                 className="block px-3 py-2 text-base font-medium"
               >
-                {item}
+                <button type="button" onClick={toggleMenu}>
+                  {item}
+                </button>
               </a>
             ))}
           </div>
 
-          <div>
-            <a href="#">
-              <button
-                type="button"
-                className="bg-eastern-blue hover:bg-eastern-blue-dark w-full rounded-md px-5 py-2 text-base font-medium text-white transition-colors duration-200"
-              >
-                Contact Us
-              </button>
+          <div className="w-full">
+            {/* Mobile contact button */}
+            <a
+              href="#"
+              onClick={toggleMenu}
+              className="bg-eastern-blue hover:bg-eastern-blue-dark block w-full rounded-md px-5 py-2 text-center text-base font-medium text-white transition-colors duration-200"
+            >
+              Contact Us
             </a>
           </div>
-          {/* Mobile contact button */}
         </div>
       </div>
     </nav>
