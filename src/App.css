@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --color-eastern-blue-lightest: #e7f3f7;
+  --color-eastern-blue-light: #5badc9;
+  --color-eastern-blue: #168ab2;
+  --color-eastern-blue-dark: #116e8e;
+  --color-eastern-blue-darker: #083747;
+  --color-eastern-blue-darkest: #062935;
+}
