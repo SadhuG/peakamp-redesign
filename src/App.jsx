@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import OurProcess from "./components/OurProcess";
 import Stats from "./components/Stats";
 import ValueChain from "./components/ValueChain";
 
@@ -18,6 +19,7 @@ const App = () => {
         <main>
           <Stats />
           <ValueChain />
+          <OurProcess />
         </main>
       </div>
     </div>
