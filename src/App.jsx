@@ -3,6 +3,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
+import ValueChain from "./components/ValueChain";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         </header>
         <main>
           <Stats />
+          <ValueChain />
         </main>
       </div>
     </div>
