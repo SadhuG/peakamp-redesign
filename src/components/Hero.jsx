@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="bg-eastern-blue-lightest/60 absolute h-full w-full xl:hidden"></div>
         {/* Content Container */}
         <div className="z-50 w-full max-w-[70%] px-4 sm:px-6 lg:px-8 xl:max-w-[55%]">
-          <h1 className="font-urbanist mb-6 text-5xl/[1.2] font-bold lg:text-7xl">
+          <h1 className="font-urbanist mb-6 text-4xl/[1.2] font-bold md:text-7xl">
             Full-stack solution for{" "}
             <span className="from-caribbean-green to-eastern-blue-light bg-linear-to-r bg-clip-text text-transparent">
               End-of-Life
