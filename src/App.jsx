@@ -3,6 +3,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurProcess from "./components/OurProcess";
+import OurProducts from "./components/OurProducts";
 import Stats from "./components/Stats";
 import ValueChain from "./components/ValueChain";
 
@@ -20,6 +21,7 @@ const App = () => {
           <Stats />
           <ValueChain />
           <OurProcess />
+          <OurProducts />
         </main>
       </div>
     </div>
