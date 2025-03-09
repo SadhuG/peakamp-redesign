@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Logo container */}
           <div className="flex items-center">
             <a href="">
-              <div className="flex h-9 w-20 flex-shrink-0 items-center">
+              <div className="flex h-10 w-30 flex-shrink-0 items-center">
                 {/* Company logo */}
                 <img src={logo} alt="" />
               </div>

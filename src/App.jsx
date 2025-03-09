@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurProcess from "./components/OurProcess";
 import OurProducts from "./components/OurProducts";
+import ProductDescription from "./components/ProductDescription";
 import Stats from "./components/Stats";
 import ValueChain from "./components/ValueChain";
 
@@ -22,6 +23,7 @@ const App = () => {
           <ValueChain />
           <OurProcess />
           <OurProducts />
+          <ProductDescription />
         </main>
       </div>
     </div>

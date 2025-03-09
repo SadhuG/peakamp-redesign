@@ -97,7 +97,7 @@ const OurProducts = () => {
                 <img
                   src={product.image}
                   alt={product.title + product.description}
-                  className="mx-auto mb-4 h-40 w-full rounded-lg object-cover"
+                  className="mx-auto mb-4 h-52 w-full rounded-lg object-cover"
                 />
                 <h4 className="mb-2 text-2xl font-medium">{product.title}</h4>
                 <p className="text-sm">{product.description}</p>

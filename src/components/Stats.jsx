@@ -1,5 +1,5 @@
 import React from "react";
-import batteryImage from "../assets/batteryStats.png";
+import batteryImage from "../assets/battery-stats.png";
 
 const Stats = () => {
   const statsData = [
