@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import ESGSection from "./components/ESGSection";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurProcess from "./components/OurProcess";
@@ -24,6 +25,7 @@ const App = () => {
           <OurProcess />
           <OurProducts />
           <ProductDescription />
+          <ESGSection />
         </main>
       </div>
     </div>
