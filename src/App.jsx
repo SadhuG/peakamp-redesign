@@ -8,6 +8,7 @@ import OurProducts from "./components/OurProducts";
 import ProductDescription from "./components/ProductDescription";
 import QuoteSection from "./components/QuoteSection";
 import Stats from "./components/Stats";
+import UnlockTheFuture from "./components/UnlockTheFuture";
 import ValueChain from "./components/ValueChain";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
           <ProductDescription />
           <ESGSection />
           <QuoteSection />
+          <UnlockTheFuture />
         </main>
       </div>
     </div>
