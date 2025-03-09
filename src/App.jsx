@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import ContactUsForm from "./components/ContactUsForm";
 import ESGSection from "./components/ESGSection";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -30,6 +31,7 @@ const App = () => {
           <ESGSection />
           <QuoteSection />
           <UnlockTheFuture />
+          <ContactUsForm />
         </main>
       </div>
     </div>
