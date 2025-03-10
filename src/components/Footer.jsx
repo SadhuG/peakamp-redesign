@@ -36,11 +36,14 @@ const Footer = () => {
         <div className="mb-20 flex flex-col gap-16 lg:flex-row lg:gap-24">
           {/* Logo and Newsletter Section */}
           <div className="md:w-3/4 lg:w-1/2">
-            <img
-              src={Logo}
-              alt="PeakAmp Logo"
-              className="mb-5 h-10 w-30 md:mb-6"
-            />
+            <a href="#">
+              <img
+                src={Logo}
+                alt="PeakAmp Logo"
+                className="mb-5 h-10 w-30 md:mb-6"
+              />
+            </a>
+
             <p className="mb-8 max-w-md">
               Subscribe to our newsletter to stay updated with the latest news
               and insights in battery recycling.
