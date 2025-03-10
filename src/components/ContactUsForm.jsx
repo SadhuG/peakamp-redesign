@@ -13,7 +13,7 @@ const ContactUsForm = () => {
   ];
 
   return (
-    <section className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
+    <section id="contact" className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
       <div className="container mx-auto">
         <div className="flex flex-col gap-16 lg:flex-row">
           {/* Left Section */}

@@ -50,7 +50,7 @@ const OurProducts = () => {
   ];
 
   return (
-    <section className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
+    <section id="products" className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
       <div className="container mx-auto">
         {/* Header */}
         <div className="mb-20 text-center">

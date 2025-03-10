@@ -26,7 +26,7 @@ const ESGSection = () => {
   ];
 
   return (
-    <section className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
+    <section id="esg" className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
       <div className="w-[75%]">
         {/* Header Section */}
         <div className="mb-16">

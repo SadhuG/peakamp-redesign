@@ -2,7 +2,7 @@ import React from "react";
 
 const UnlockTheFuture = () => {
   return (
-    <section className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
+    <section id="about" className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
       <div className="container mx-auto">
         <div className="flex items-center max-md:flex-col max-md:text-center">
           {/* Header */}

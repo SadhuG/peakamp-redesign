@@ -8,11 +8,11 @@ import youtube from "../assets/youtube.svg";
 
 const Footer = () => {
   const siteMapLinks = [
-    { name: "About Us", href: "/about" },
-    { name: "Process", href: "/services" },
-    { name: "Products", href: "/products" },
-    { name: "Sustainability", href: "/products" },
-    { name: "Contact", href: "/contact" },
+    { name: "About Us", href: "#about" },
+    { name: "Process", href: "#process" },
+    { name: "Products", href: "#products" },
+    { name: "Sustainability", href: "#esg" },
+    { name: "Contact", href: "#contact" },
   ];
 
   const socialLinks = [

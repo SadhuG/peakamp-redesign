@@ -5,7 +5,11 @@ const Navbar = () => {
   // State to manage mobile menu visibility
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ["About Us", "Process", "Solutions"];
+  const menuItems = [
+    { name: "About Us", href: "#about" },
+    { name: "Process", href: "#process" },
+    { name: "Solutions", href: "#products" },
+  ];
 
   // Toggle menu function
   const toggleMenu = () => {
@@ -31,17 +35,17 @@ const Navbar = () => {
             <div className="flex gap-8">
               {menuItems.map((item) => (
                 <a
-                  key={item}
-                  href="#"
+                  key={item.name}
+                  href={item.href}
                   className="px-2 py-1 text-base font-medium"
                 >
-                  {item}
+                  {item.name}
                 </a>
               ))}
             </div>
             {/* Contact button */}
             <a
-              href="#"
+              href="#contact"
               className="bg-eastern-blue hover:bg-eastern-blue-dark rounded-md px-5 py-2 text-base font-medium text-white transition-colors duration-200"
             >
               Contact Us
@@ -83,12 +87,12 @@ const Navbar = () => {
           <div>
             {menuItems.map((item) => (
               <a
-                key={item}
-                href="#"
+                key={item.name}
+                href={item.href}
                 className="block px-3 py-2 text-base font-medium"
               >
                 <button type="button" onClick={toggleMenu}>
-                  {item}
+                  {item.name}
                 </button>
               </a>
             ))}
@@ -97,7 +101,7 @@ const Navbar = () => {
           <div className="w-full">
             {/* Mobile contact button */}
             <a
-              href="#"
+              href="#contact"
               onClick={toggleMenu}
               className="bg-eastern-blue hover:bg-eastern-blue-dark block w-full rounded-md px-5 py-2 text-center text-base font-medium text-white transition-colors duration-200"
             >
