@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import ContactUsForm from "./components/ContactUsForm";
 import ESGSection from "./components/ESGSection";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurProcess from "./components/OurProcess";
@@ -33,6 +34,7 @@ const App = () => {
           <UnlockTheFuture />
           <ContactUsForm />
         </main>
+        <Footer />
       </div>
     </div>
   );
