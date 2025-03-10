@@ -89,11 +89,10 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
+                onClick={toggleMenu}
                 className="block px-3 py-2 text-base font-medium"
               >
-                <button type="button" onClick={toggleMenu}>
-                  {item.name}
-                </button>
+                <button type="button">{item.name}</button>
               </a>
             ))}
           </div>
