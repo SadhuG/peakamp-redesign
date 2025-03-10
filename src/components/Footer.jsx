@@ -30,13 +30,17 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="px-6 py-20 md:px-16 lg:px-16">
+    <footer className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
       <div className="container mx-auto">
         {/* Main Footer Content */}
         <div className="mb-20 flex flex-col gap-16 lg:flex-row lg:gap-24">
           {/* Logo and Newsletter Section */}
           <div className="md:w-3/4 lg:w-1/2">
-            <img src={Logo} alt="PeakAmp Logo" className="mb-6 h-8" />
+            <img
+              src={Logo}
+              alt="PeakAmp Logo"
+              className="mb-5 h-10 w-30 md:mb-6"
+            />
             <p className="mb-8 max-w-md">
               Subscribe to our newsletter to stay updated with the latest news
               and insights in battery recycling.
@@ -49,7 +53,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="bg-eastern-blue hover:bg-eastern-blue-dark rounded-lg px-6 py-3 font-medium text-white transition-colors focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
+                className="bg-caribbean-green-lighter hover:bg-caribbean-green rounded-lg border border-gray-300 px-6 py-3 font-medium transition-colors focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
               >
                 Subscribe
               </button>
@@ -65,7 +69,7 @@ const Footer = () => {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="hover:text-caribbean-green-dark"
+                      className="hover:text-caribbean-green-darker"
                     >
                       {link.name}
                     </a>

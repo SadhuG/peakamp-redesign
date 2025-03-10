@@ -65,10 +65,10 @@ const ProductDescription = () => {
           <span className="mb-4 inline-block text-sm font-semibold tracking-wider uppercase">
             Powering Tomorrow
           </span>
-          <h2 className="mb-4 text-[2.5rem] font-bold lg:text-[3.25rem]">
+          <h2 className="font-urbanist mb-5 text-4xl leading-tight font-bold md:mb-6 lg:text-5xl">
             Comprehensive Battery Recycling Solutions
           </h2>
-          <p className="text-center text-lg text-gray-600">
+          <p className="mx-auto mb-12 text-base md:text-xl">
             We offer end-to-end solutions for EV battery recycling, from
             collection to material recovery
           </p>

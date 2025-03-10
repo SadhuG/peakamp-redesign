@@ -21,10 +21,10 @@ const ContactUsForm = () => {
             <span className="mb-4 inline-block text-sm font-semibold tracking-wider uppercase">
               Get in Touch
             </span>
-            <h2 className="mb-4 text-4xl font-bold lg:text-5xl">
+            <h2 className="font-urbanist mb-5 text-4xl leading-tight font-bold md:mb-6 lg:text-5xl">
               Let's Build a Sustainable Future Together
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="mx-auto mb-12 text-base md:text-xl">
               Partner with us to revolutionize battery recycling and make a
               lasting impact on the environment.
             </p>
@@ -33,8 +33,10 @@ const ContactUsForm = () => {
           {/* Right Section - Form */}
           <div className="flex-1">
             <div className="mb-8">
-              <h3 className="mb-2 text-2xl font-bold">Contact Us</h3>
-              <p className="text-gray-600">
+              <h3 className="font-urbanist mb-5 text-4xl leading-tight font-bold md:mb-6 lg:text-5xl">
+                Contact Us
+              </h3>
+              <p className="mx-auto mb-12 text-base md:text-xl">
                 Fill out the form below and we'll get back to you shortly.
               </p>
             </div>
@@ -117,7 +119,7 @@ const ContactUsForm = () => {
                         <button
                           key={index}
                           type="button"
-                          className="w-full px-4 py-2 text-left hover:bg-[#ccf7ec] focus:bg-[#ccf7ec] focus:outline-none"
+                          className="hover:bg-caribbean-green-lighter focus:bg-caribbean-green-lighter w-full px-4 py-2 text-left focus:outline-none"
                           onClick={() => {
                             setSelectedOption(type);
                             setIsOpen(false);

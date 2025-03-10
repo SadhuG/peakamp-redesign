@@ -27,16 +27,16 @@ const ESGSection = () => {
 
   return (
     <section id="esg" className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
-      <div className="w-[75%]">
+      <div className="w-3/4 lg:w-4/5 xl:w-3/4">
         {/* Header Section */}
         <div className="mb-16">
           <span className="mb-4 inline-block text-sm font-semibold tracking-wider uppercase">
             ESG Commitment
           </span>
-          <h2 className="mb-4 text-4xl font-bold lg:text-5xl">
+          <h2 className="font-urbanist mb-5 text-4xl leading-tight font-bold md:mb-6 lg:text-5xl">
             Our Commitment to a Sustainable Future
           </h2>
-          <p className="text-lg">
+          <p className="mx-auto mb-12 text-base md:text-xl">
             At PeakAmp, we believe in a world where sustainability is the norm.
             Our mission goes beyond recycling; we aim to revolutionize the way
             we think about energy.
@@ -52,7 +52,9 @@ const ESGSection = () => {
                 alt={`${card.title} icon`}
                 className="mb-4 h-12 w-12"
               />
-              <h3 className="mb-3 text-2xl font-bold">{card.title}</h3>
+              <h3 className="mb-2 text-xl font-bold lg:text-2xl">
+                {card.title}
+              </h3>
               <p>{card.description}</p>
             </div>
           ))}

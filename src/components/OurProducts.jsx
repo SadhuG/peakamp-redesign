@@ -54,8 +54,10 @@ const OurProducts = () => {
       <div className="container mx-auto">
         {/* Header */}
         <div className="mb-20 text-center">
-          <h2 className="mb-4 text-4xl font-bold lg:text-5xl">Our Products</h2>
-          <p className="mx-auto max-w-3xl text-lg text-gray-600">
+          <h2 className="font-urbanist mb-5 text-4xl leading-tight font-bold md:mb-6 lg:text-5xl">
+            Our Products
+          </h2>
+          <p className="mx-auto mb-12 text-base md:text-xl">
             Explore our innovative sustainable energy solutions today!
           </p>
         </div>

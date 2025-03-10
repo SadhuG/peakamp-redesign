@@ -40,13 +40,13 @@ const ValueChain = () => {
   ];
 
   return (
-    <section className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
+    <section className="px-5 py-16 md:px-16 lg:px-16 lg:py-28">
       <div className="container mx-auto">
         <div className="mb-20 text-center">
-          <h2 className="mb-4 text-4xl font-bold lg:text-5xl">
+          <h2 className="font-urbanist mb-5 text-4xl leading-tight font-bold md:mb-6 lg:text-5xl">
             Our Contribution in the Value Chain
           </h2>
-          <p className="mx-auto max-w-3xl text-lg text-gray-600">
+          <p className="mx-auto mb-12 max-w-3xl text-base md:text-xl">
             We ensure sustainable battery recycling through our comprehensive
             end-to-end process
           </p>
@@ -63,7 +63,9 @@ const ValueChain = () => {
                 alt={card.title}
                 className="mx-auto mb-4 h-12 w-12"
               />
-              <h3 className="mb-2 text-3xl font-bold">{card.title}</h3>
+              <h3 className="mb-2 text-xl font-bold lg:text-2xl">
+                {card.title}
+              </h3>
               <p>{card.description}</p>
             </div>
           ))}

@@ -5,7 +5,7 @@ const Stats = () => {
   const statsData = [
     {
       value: "600,000+",
-      valueClr: "caribbean-green-dark",
+      valueClr: "text-caribbean-green-dark",
       description: (
         <>
           <strong>kWh</strong> of batteries recycled annually — our ongoing
@@ -15,7 +15,7 @@ const Stats = () => {
     },
     {
       value: "Over 98%",
-      valueClr: "eastern-blue-dark",
+      valueClr: "text-eastern-blue-dark",
       description: (
         <>
           <strong>material recovery</strong> achieved at an industrial scale.
@@ -24,7 +24,7 @@ const Stats = () => {
     },
     {
       value: "15,000",
-      valueClr: "caribbean-green-dark",
+      valueClr: "text-caribbean-green-dark",
       description: (
         <>
           <strong>metric</strong> tonnes of <strong>CO2</strong> emissions on
@@ -35,7 +35,7 @@ const Stats = () => {
   ];
 
   return (
-    <section className="px-6 py-28 md:px-16 lg:px-16 lg:py-28">
+    <section className="px-5 py-16 md:px-16 lg:px-16 lg:py-28">
       <div className="container mx-auto flex flex-col-reverse items-center lg:flex-row lg:gap-20">
         {/* Image Section */}
         <div className="mt-12 w-full lg:mt-0 lg:w-1/2">
@@ -48,11 +48,11 @@ const Stats = () => {
 
         {/* Content Section */}
         <div className="w-full lg:w-1/2">
-          <h2 className="mb-4 text-4xl leading-tight font-bold lg:text-5xl">
+          <h2 className="font-urbanist mb-5 text-4xl leading-tight font-bold md:mb-6 xl:text-5xl">
             Transforming the Future of EV Battery Recycling with Innovative
             Solutions
           </h2>
-          <p className="mb-12 text-lg text-gray-600">
+          <p className="mb-12 text-base md:text-xl">
             At Peakamp, we are dedicated to revolutionizing the management of
             End-of-Life EV batteries. Our mission is to create a sustainable and
             efficient ecosystem for all stakeholders.
@@ -62,7 +62,9 @@ const Stats = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:[&>*:last-child]:col-span-2 lg:[&>*:last-child]:col-span-1">
             {statsData.map((stat, index) => (
               <div key={index} className="text-center lg:text-left">
-                <h3 className={`text-5xl font-bold text-${stat.valueClr}`}>
+                <h3
+                  className={`font-urbanist text-4xl leading-tight font-bold xl:text-5xl ${stat.valueClr}`}
+                >
                   {stat.value}
                 </h3>
                 <p>{stat.description}</p>
